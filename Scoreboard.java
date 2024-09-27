@@ -1,10 +1,10 @@
-public class Scoreboard 
+public class Scoreboard
 {
    
     private String teamOne;
     private String teamTwo;
-    private int getTeamOneScore;
-    private int getTeamTwoScore;
+    private int TeamOneScore;
+    private int TeamTwoScore;
     private String activeTeam;
     public Scoreboard(String one , String two)
     {
@@ -14,6 +14,8 @@ public class Scoreboard
     }
     public String getScore()
     {
-        return null;
+        //return null;
+        return TeamOneScore + "-" +  TeamTwoScore + "-" + activeTeam;
+
     }
 }
